@@ -1,0 +1,21 @@
+name: "Clad in White"
+author: "Taha Nynth"
+category: "osint"
+description: "Can you give me the coordinates of the White huts in our upper cafetaria?\nExample flag `TCT{12.345,67.890}`"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{33.713,73.024}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

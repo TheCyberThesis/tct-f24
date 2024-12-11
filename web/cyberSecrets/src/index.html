@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Secrets</title>
+    <style>
+        /* Background and layout */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+            font-family: 'Orbitron', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        /* Neon glow effect for container */
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.7), 0 0 30px rgba(0, 255, 255, 0.4);
+            color: #00ffff;
+            transform: scale(1);
+            transition: transform 0.4s ease;
+        }
+
+        .container:hover {
+            transform: scale(1.05);
+        }
+
+        /* Futuristic font and color */
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #00ff99;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+            color: #fff;
+            opacity: 0.8;
+        }
+
+        /* Animated button with pulse effect */
+        .btn {
+            margin-top: 30px;
+            padding: 15px 30px;
+            background: #00ff99;
+            color: #000;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 0 20px rgba(0, 255, 153, 0.6);
+            animation: pulse 1.5s infinite;
+        }
+
+        /* Pulsing animation */
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 10px rgba(0, 255, 153, 0.5);
+            }
+            50% {
+                box-shadow: 0 0 25px rgba(0, 255, 153, 0.9);
+            }
+            100% {
+                box-shadow: 0 0 10px rgba(0, 255, 153, 0.5);
+            }
+        }
+
+        .btn:hover {
+            background-color: #00ff99;
+            box-shadow: 0 0 40px rgba(0, 255, 153, 0.8);
+        }
+
+        /* Floating neon shapes */
+        .shape {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(0, 255, 255, 0.15);
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        /* Floating animation for shapes */
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-30px);
+            }
+        }
+
+        .shape-1 {
+            width: 150px;
+            height: 150px;
+            top: 10%;
+            left: 5%;
+            animation-duration: 7s;
+        }
+
+        .shape-2 {
+            width: 100px;
+            height: 100px;
+            bottom: 20%;
+            right: 10%;
+            animation-duration: 5s;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 0.9rem;
+            color: #fff;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Floating geometric shapes -->
+    <!-- Well done! Here's your flag: TCT{Cyber_Future_Secrets_2024!} -->
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+
+    <div class="container">
+        <h1>Welcome to Cyber Secrets</h1>
+        <p>The real secrets lie beneath the surface...</p>
+        <a href="#" class="btn">Start Searching</a>
+    </div>
+
+    <footer>
+        <p>The Black Box is still not found. Can you see it?</p>
+    </footer>
+</body>
+</html>

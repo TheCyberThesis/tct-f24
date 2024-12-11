@@ -1,0 +1,21 @@
+name: "Shark Egg 2"
+author: "Taha Nynth"
+category: "Forensics"
+description: "can you tell which protocol was used to send the flag in shark egg?"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{IPv4}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

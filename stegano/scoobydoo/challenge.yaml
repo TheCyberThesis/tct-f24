@@ -1,0 +1,22 @@
+name: "Scooby doo and Krypto too!!!"
+author: "Alishba Malik"
+category: "stegano"
+description: "A mystery awaits, hidden beneath the surface of what seems like an ordinary image. Just like Scooby-Doo and the gang, it’s your job to unveil the secrets that lie within. The answer is there, but it’s disguised."
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{j1nk13s_h3x_r3v34l3d}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

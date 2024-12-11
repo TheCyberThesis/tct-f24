@@ -1,0 +1,24 @@
+name: "Hide n Seek"
+author: "Pickachu"
+category: "web"
+description: "You can't see your future but u can c the flag.\nhttps://pickachu-portfolio.vercel.app/"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+    port: 80
+
+
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{naaa_u0_f0und_!t}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: 0.1

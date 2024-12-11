@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQLi - Flag</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    {% if username == 'admin' %}
+        <h2>Flag: {{ flag }}</h2>
+    {% else %}
+        <h2>If you are not an admin, I will eat your flag :(</h2>
+    {% endif %}
+    <a href="{{ url_for('index') }}">Home</a>
+</body>
+</html>

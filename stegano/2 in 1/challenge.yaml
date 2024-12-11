@@ -1,0 +1,24 @@
+name: "2 in 1"
+author: "Subuktadin Aibak"
+category: "stegano"
+description: "Dabbay me dabba, Dabbay me Flag"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+files:
+    - dist/img.png
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{damn_you_caught_me}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

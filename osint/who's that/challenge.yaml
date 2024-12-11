@@ -1,0 +1,24 @@
+name: "who's that?"
+author: "Pickachu"
+category: "osint"
+description: "Can you find the name of the artist??"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+ 
+
+
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{ Artvizual}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: 0.1

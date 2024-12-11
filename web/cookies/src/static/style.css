@@ -1,0 +1,102 @@
+/* Reset basic styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #e4cdb2; /* Same background color for all pages */
+    position: relative;
+}
+
+/* Center container */
+.container {
+    width: 400px;
+    padding: 20px;
+    background: #f0cea9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+    text-align: center;
+}
+
+/* Link styling */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #a25635;
+    text-decoration: none;
+    border: 1px solid #a25635;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #a25635;
+    color: #e4cdb2;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1.2em;
+    color: #5b3827;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+button {
+    background-color: #a25635;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #823d26;
+}
+
+/* Cookie image styles */
+.cookie-img {
+    position: absolute;
+    width: 200px; 
+}
+
+.cookie1 {
+    top: 10%; 
+    left: 10%; 
+}
+
+.cookie1:nth-of-type(2) {
+    top: 70%; 
+    left: 20%; 
+}
+
+.cookie2 {
+    bottom: 20%; 
+    right: 5%; 
+}
+
+.cookie3 {
+    bottom: 10%; 
+    left: 50%;
+    transform: translateX(-50%); 
+}

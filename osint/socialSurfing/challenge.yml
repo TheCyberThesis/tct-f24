@@ -1,0 +1,21 @@
+name: "Social Surfing"
+author: "inumaki"
+category: "osint"
+description: "the author has the flag, retrieve it!"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{ez_p3@sy}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

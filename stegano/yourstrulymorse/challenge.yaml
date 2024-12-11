@@ -1,0 +1,25 @@
+name: "your's truly morse"
+author: "Alishba Malik"
+category: "stegano"
+description: "Listen closely to the rhythm of the universe. Hidden in the sound waves is the truth you seek.Can you hear the hidden harmony?"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+files:
+    - dist/morse.wav
+
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{M0R53_s4v3d_u_70d4y}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

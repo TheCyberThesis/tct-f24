@@ -1,0 +1,24 @@
+name: "J Cole"
+author: "Subuktadin Aibak"
+category: "osint"
+description: "Can you find where my favourite rapper is standing?\nExample flag `TCT{12.345,-67.890}`"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+files:
+    - dist/JCole.png
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{40.722,-74.005}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

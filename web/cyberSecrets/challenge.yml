@@ -1,0 +1,25 @@
+name: "Cyber Secrets"
+author: "Omega"
+category: "web"
+description: "Everything seems like a normal webpage, but there's something..."
+value: 500
+type: container
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+    image: latest
+    port: 80
+
+image: ./src
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{Cyber_Future_Secrets_2024!}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

@@ -1,0 +1,25 @@
+name: "Rise of RSA Master"
+author: "Alishba Malik"
+category: "crypto"
+description: "CipherShroud has hidden a secret behind an impenetrable RSA cipher. Armed with only a public key and the knowledge of two mysterious primes, your task is to break the encryption and reveal the flag before time runs out. Can you rise to the challenge, or will the secret remain locked forever?"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{d3cryp710n_m4s73r_1n_th3_m4k1n9}",
+        data: "case_sensitive",
+    }
+
+files:
+    - dist/parameters.txt
+
+state: visible
+version: "0.1"

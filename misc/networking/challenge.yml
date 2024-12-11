@@ -1,0 +1,25 @@
+name: "Networking"
+author: "Strangek"
+category: "misc"
+description: "Connect and get the flag :)\n`nc ctf.thecyberthesis.com 30303`"
+value: 500
+type: container
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+    image: latest
+    port: 30303
+
+image: ./src
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{n3tc4t_7hr0u9h1n9_l1f3}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

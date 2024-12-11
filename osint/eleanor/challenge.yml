@@ -1,0 +1,21 @@
+name: "Eleanor"
+author: "inumaki"
+category: "osint"
+description: "can you tell where was the last ping of loggerhead sea turtle Eleanor?\nExample flag: `TCT{January10,_9:00AM}`"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{September28,_10:16AM}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

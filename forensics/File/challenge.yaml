@@ -1,0 +1,24 @@
+name: "File"
+author: "Subuktadin Aibak"
+category: "forensics"
+description: "Can you figure something out"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+files:
+    - dist/Chal
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{great_job_junior}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

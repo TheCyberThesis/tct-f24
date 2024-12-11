@@ -1,0 +1,24 @@
+name: "Distortion"
+author: "Pickachu"
+category: "stegano"
+description: "F24 stucked in distortion. xD"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+files:
+    - dist/dist.jpg
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{xD_d1st0rt10n_1s_c00l}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

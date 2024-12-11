@@ -1,0 +1,24 @@
+name: "XP"
+author: "Subuktadin Aibak"
+category: "osint"
+description: "Exif can be useful"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+files:
+    - dist/img.jpg
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{3X1F_T00L_IS_S00_C00L}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

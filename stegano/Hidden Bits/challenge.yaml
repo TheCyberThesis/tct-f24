@@ -1,0 +1,24 @@
+name: "Hidden Bits"
+author: "Subuktadin Aibak"
+category: "stegano"
+description: "Something is hidden..."
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+files:
+    - dist/Hidden.jpeg
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{QUTB_UD_DIN_AIBAK}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

@@ -1,0 +1,23 @@
+name: "Rotted Segments"
+author: "Alishba Malik"
+category: "crypto"
+description: "A message lies hidden beneath layers of deception, waiting to be revealed. The key to unraveling it requires a keen eye and a sharp mind. Patterns disguise the truth, but those who can decode the chaos will uncover the flag. Are you ready to take on the challenge? The answer is closer than it seems."
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{C1pH3R3d_1N_7W0_l413R5}",
+        data: "case_sensitive",
+    }
+
+files:
+    - dist/cipher.txt
+state: visible
+version: "0.1"

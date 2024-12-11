@@ -1,0 +1,24 @@
+name: "Live in the dark, Serve the light"
+author: "Taha Nynth"
+category: "crypto"
+description: "Don't let the templars steal the brotherhoods secrets! Decode this to find the location of next piece of Eden. (if exact translation doesn't work, try inserting dashes or underscores between each word)"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+files:
+    - dist/chal.png
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{May_This_Life_Never_Change_Us}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

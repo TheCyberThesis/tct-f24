@@ -1,0 +1,21 @@
+name: "Wigle"
+author: "Subuktadin Aibak"
+category: "osint"
+description: "In 'AirXeros Operation Part 1', efforts were concentrated on tracking an terrorist using his flight boarding pass. The focus has now shifted to another terrorist named Ben. With the assistance of the  secret services agency, a wireless network was intercepted. The BSSID of this network is B4:EE:B4:AD:65:EC, and it potentially contains the important information.\nYou mission is to :\nFind the EMAIL and Phone number of ben and report us as soon as possible.\nFlag Format:TCT{abc1102@gmail.com,051-1234567}"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+    
+flags:
+    - {
+        type: "static",
+        content: "TCT{ben1902g@gmail.com,052-8664610}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

@@ -1,0 +1,25 @@
+name: "Cookies"
+author: "Alishba Malik"
+category: "web"
+description: "I heard you like cookies, here are some!!!"
+value: 500
+type: container
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+    image: latest
+    port: 5000
+
+image: ./src
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{U_kN0w_wH47_4_c00k13_15}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

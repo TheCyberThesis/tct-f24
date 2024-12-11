@@ -1,0 +1,25 @@
+name: "SQL 4 U"
+author: "ArcusTen"
+category: "web"
+description: "Have you heard about SQLi??\nMe too :)"
+value: 500
+type: container
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+    image: latest
+    port: 5000
+
+image: ./src
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{SQLi_4EV3R_DUD3_R3G3X}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

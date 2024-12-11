@@ -1,0 +1,24 @@
+name: "FrainBuck"
+author: "Subuktadin Aibak"
+category: "misc"
+description: "Hope you brain is not braining"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+files:
+    - dist/file.txt
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{wtf_is_brainfuck}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"

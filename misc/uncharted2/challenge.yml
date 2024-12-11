@@ -1,0 +1,21 @@
+name: "Uncharted 2"
+author: "Taha Nynth"
+category: "Misc"
+description: "Upon successfully finding the lost flag, the ghost of Henry Every beckons Drake to another flag, which seems to require a password, the password is the hex bits which denote the beginning of a JPEG image, can you find the correct the password? flag example `TCT{1DF7}`"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+
+flags:
+    - {
+        type: "static",
+        content: "TCT{FFD8}",
+        data: "case_sensitive",
+    }
+
+state: visible
+version: "0.1"
